@@ -1,2 +1,2 @@
 #!/bin/bash
-putchar("Programming is like building a multilingual puzzle\n")
+int puts("Programming is like building a multilingual puzzle");
