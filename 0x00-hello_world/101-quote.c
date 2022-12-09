@@ -1,12 +1,15 @@
-#include <unistd.h>
+#include <stdio.h>
+
 /**
- *main - prints "and that piece of art is useful" - dora korpar, 2015-10-19",
- *follwed by a new line, to standard error
+ *main - Entry point
  *
- *description - Write a C program that prints to stdrr
- *Return : Always 1.
+ *
+ *Description - Write a C program that prints to stdrr
+ *Return : Always 1 (error)
  */
+
 int main(void)
+
 {
 write(2,
 	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
