@@ -3,6 +3,7 @@
  *main - prints "and that piece of art is useful" - dora korpar, 2015-10-19",
  *follwed by a new line, to standard error
  *
+ *description - Write a C program that prints to stdrr
  *Return : Always 1.
  */
 int main(void)
