@@ -4,7 +4,7 @@
 *main - Entry point
 *
 *
-*Description - Prints out the sizes of the different varaible typesDescription - Prints out the sizes of the different varaible types
+*Description - Prints out the sizes of the different varaible types
 *Return: Always 0 (success)
 */
 int main(void)
