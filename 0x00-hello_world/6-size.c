@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+*main - Entry point
 *
-* return: Always 0 (success)
+*
+*Description - Prints out the sizes of the different varaible typesDescription - Prints out the sizes of the different varaible types
+*Return: Always 0 (success)
 */
 int main(void)
 {
