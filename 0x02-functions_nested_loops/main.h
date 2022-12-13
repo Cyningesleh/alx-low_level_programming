@@ -6,5 +6,4 @@
 *Return: Always 0 - success
 */
 
-
-int fun(char c);
+void fun();
