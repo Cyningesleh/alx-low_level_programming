@@ -4,14 +4,16 @@
 *print_alphabet - To print alphabets in lower case
 *
 */
+
 void print_alphabet(void)
 {
-int x;
-for (x = 'a' ; x <= 'z' ; x++)
+int x = 'a';
+while (x <= 'z')
 {
 _putchar(x);
+x++;
 }
-_putchar('\n');
 
+_putchar('\n');
 return (0);
 }
