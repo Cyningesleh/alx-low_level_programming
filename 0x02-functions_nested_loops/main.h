@@ -23,3 +23,15 @@ void times_table(void);
 int add(int, int);
 
 void print_to_98(int n);
+
+void print_times_table(int n);
+
+void natnum(void);
+
+void print_fib50(void);
+
+void print_fib_even(void);
+
+void print_fib98(void);
+
+#endif
