@@ -1,0 +1,1 @@
+This file takes on the application of pointers, arrays and strings.
