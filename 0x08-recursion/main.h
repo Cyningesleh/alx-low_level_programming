@@ -2,4 +2,4 @@
 #define MAIN_H
 
 void _puts_recursion(char *s);
-#endif
+#endif /*MAIN_H*/
