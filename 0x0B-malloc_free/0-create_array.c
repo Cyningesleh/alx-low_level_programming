@@ -14,12 +14,14 @@ if (size == 0)
 return (NULL);
 }
 
-char *array = (char *)malloc(sizeof(char) * size);
+char *array;
+array = malloc(size * sizeof(char))
+{
 if (array == NULL)
 {
 return (NULL);
 }
-
+}
 unsigned int i;
 for (i = 0; i < size; i++)
 {
