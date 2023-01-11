@@ -19,4 +19,3 @@ array[i] = c;
 }
 return (array);
 }
-free(array);
