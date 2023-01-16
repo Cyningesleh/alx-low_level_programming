@@ -2,7 +2,7 @@
 #include "stdio.h"
 #define _2_MAIN_C_
 #ifndef _2_MAIN_C_
-#define _PUTCHAR_
+
 /**
  *main - Entry point
  *Description - function that prints the name of the file
@@ -10,7 +10,7 @@
  */
 int main (void)
 {
-_putchar("%s\n", _2_MAIN_c_)
+_putchar("%s\n", _FILE_)
 return (0);
 }
 
