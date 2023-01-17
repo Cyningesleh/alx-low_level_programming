@@ -5,7 +5,7 @@
  *Description - function that prints the name of the file
  *Return: 0
  */
-int main (void)
+int main(void)
 {
 _printf("%s\n", _FILE_);
 return (0);
