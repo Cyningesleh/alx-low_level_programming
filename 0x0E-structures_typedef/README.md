@@ -1,0 +1,1 @@
+This file is for task on structures and typedef
