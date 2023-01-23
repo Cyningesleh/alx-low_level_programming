@@ -1,6 +1,6 @@
-#ifndef VARIADIC_FUNC
-#define VARIADIC_FUNC
+#ifndef VARIADIC_FUNCTION
+#define VARIADIC_FUNCTION
 
 int sum_them_all(const unsigned int n, ...);
 
-#endif /*VARIADIC_FUNC*/
+#endif /*VARIADIC_FUNCTION*/
