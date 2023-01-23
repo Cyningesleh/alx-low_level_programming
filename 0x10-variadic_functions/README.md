@@ -1,0 +1,1 @@
+This file takes on tasks that prints the functionalities of the variadic function with examples
