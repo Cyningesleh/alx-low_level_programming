@@ -9,6 +9,8 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+unsigned int i;
+int num;
 va_list list;
 if (*separator == NULL)
 printf("%s\n", "");
