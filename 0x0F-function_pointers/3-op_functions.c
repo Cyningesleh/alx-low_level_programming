@@ -1,4 +1,3 @@
-#include <stdlib.h>
 /**
  *op_add - function that adds two integers
  *@a: first int
