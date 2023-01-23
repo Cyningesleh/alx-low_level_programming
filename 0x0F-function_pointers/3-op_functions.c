@@ -4,14 +4,13 @@
  *@a: first int
  *@b: second int
  *
- *Return: sum_add
+ *Return: a + b;
  */
 
 
 int op_add(int a, int b)
 {
-sum_add = a + b;
-return (sum_add);
+return (a + b);
 }
 
 /**
@@ -19,14 +18,13 @@ return (sum_add);
  *@a: first int
  *@b: second int
  *
- *Return: sum_sub
+ *Return: a - b;
  */
 
 
 int op_sub(int a, int b)
 {
-sum_sub = a - b;
-return (sum_sub);
+return (a - b);
 }
 
 /**
@@ -34,13 +32,12 @@ return (sum_sub);
  *@a: first int
  *@b: second int
  *
- *Return: sum_multi
+ *Return: a * b;
  */
 
 int op_mul(int a, int b)
 {
-sum_multi = a * b;
-return (sum_multi);
+return (a * b);
 }
 
 /**
@@ -48,14 +45,13 @@ return (sum_multi);
  *@a: first int
  *@b: second int
  *
- *Return: sum_div
+ *Return: a / b;
  */
 
 
 int op_div(int a, int b)
 {
-sum_div = a / b;
-return (sum_div);
+return (a / b);
 }
 
 /**
@@ -63,11 +59,10 @@ return (sum_div);
  *@a: first int
  *@b: second int
  *
- *Return: sum_mod
+ *Return: a % b;
  */
 
 int op_mod(int a, int b)
 {
-sum_mod = a % b;
-return (sum_mod);
+return (a % b);
 }
