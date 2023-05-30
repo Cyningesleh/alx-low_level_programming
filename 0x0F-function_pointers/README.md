@@ -1,1 +1,0 @@
-This file contains practical exaples and codes on how to use function pointers and run them succesfully
