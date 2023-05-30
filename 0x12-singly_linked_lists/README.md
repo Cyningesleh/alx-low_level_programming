@@ -1,1 +1,0 @@
-This file takes on project and examples onsingly linked list
