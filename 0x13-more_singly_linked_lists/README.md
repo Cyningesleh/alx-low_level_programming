@@ -1,1 +1,0 @@
-This readme file takes on projects on more singly linked list
