@@ -4,7 +4,7 @@
 /**
  *_strlen_recursion - this function prints length of a string.
  *
- *@n: string to print
+ *@s: string to print
  *Return: Always 0.
  */
 
