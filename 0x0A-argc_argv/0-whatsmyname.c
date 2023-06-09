@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 while (argc--)
 {
-printf("%s\n", *argv++);
+_putchar("%s\n", *argv++);
 }
 return (0);
 }
