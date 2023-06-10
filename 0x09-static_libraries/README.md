@@ -1,0 +1,1 @@
+This file takes a look at the c static libraries and how they are compiled and saved in the archive.
