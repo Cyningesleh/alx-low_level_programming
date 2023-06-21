@@ -1,0 +1,1 @@
+This code is for practice on function pointers
