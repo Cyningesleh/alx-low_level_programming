@@ -2,21 +2,21 @@
 #include <stdio.h>
 
 /**
- *print_all - This Function prints strings
+ *print_all - Function that prints strings
  *@format: List of arguments to be passed
  */
 void print_all(const char * const format, ...)
 {
 unsigned int i;
 float f;
-char const *ptr, *s;
+char const *str, *s;
 va_list args;
 
-ptr = format;
+str = format;
 va_start(args, format);
-while (ptr != NULL && *ptr != '\0')
+while (str != NULL && *str != '\0')
 {
-switch (*ptr)
+switch (*str)
 {
 case 'c':
 i = va_arg(args, int);
@@ -40,8 +40,8 @@ f = va_arg(args, double);
 printf("%f", f);
 break;
 }
-if (*(ptr + 1) != '\0' &&
-(*ptr == 's' || *ptr == 'c' || *ptr == 'i' || *ptr == 'f'))
+if (*(str + 1) != '\0' &&
+(*str == 's' || *str == 'c' || *str == 'i' || *str == 'f'))
 printf(", ");
 str++;
 }
