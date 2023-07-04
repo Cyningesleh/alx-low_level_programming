@@ -28,16 +28,16 @@ return (i);
  */
 list_t *add_node(list_t **head, const char *str)
 {
-list_t *add;
+list_t *ad;
 
-add = malloc(sizeof(list_t));
-if (add == NULL)
+ad = malloc(sizeof(list_t));
+if (ad == NULL)
 return (NULL);
-add->str = strdup(str);
+ad->str = strdup(str);
 
-add->len = _strlen(str);
-add->next = *head;
-*head = add;
+ad->len = _strlen(str);
+ad->next = *head;
+*head = ad;
 
-return (add);
+return (ad);
 } /*Author: cyningesleh*/
