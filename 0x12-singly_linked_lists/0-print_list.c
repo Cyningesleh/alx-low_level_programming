@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * print_list - this function checks the code for Holberton School students.
@@ -28,6 +28,4 @@ s++;
 h = h->next;
 }
 return (s);
-}
-
-/*author:Cyningesleh*/
+} /*author:Cyningesleh*/
