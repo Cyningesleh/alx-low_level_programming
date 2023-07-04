@@ -3,19 +3,18 @@
 
 
 /**
- * struct s_list - The singly linked list
- * @str: string - The string malloc
- * @len: string length
- * @next: ptr to the next node
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  *
- * Description: The singly linked list node struct
- * for Holberton projects.
+ * Description: singly linked list node structure
  */
-typedef struct s_list
+typedef struct list_s
 {
-char *str;
-unsigned int len;
-struct s_list *next;
+    char *str;
+    unsigned int len;
+    struct list_s *next;
 } list_t;
 
 list_t *add_node(list_t **head, const char *str);
