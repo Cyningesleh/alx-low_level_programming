@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - func that returns nth node of a listint_t linked list.
+ * get_nodeint_at_index - func returns nth node of a listint_t linked list.
  * @head: the ptr to first node in the list
  * @index: the index of the node to return
  *
