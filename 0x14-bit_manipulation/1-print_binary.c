@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _pow - This function calculates base ^ power
+ * _pow - This function calculates base to the power
  * @base: the base of exponent
  * @power: the power of exponent
  *
- * Return: the value of base ^ power
+ * Return: the value of base to the power
  */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
 	unsigned long int number;
 	unsigned int i;
 
-	num = 1;
+	number = 1;
 	for (i = 1; i <= power; i++)
 		number *= base;
 	return (number);
@@ -27,19 +27,19 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 void print_binary(unsigned long int n)
 {
 	unsigned long int div, chk;
-	char flag;
+	char f;
 
-	flag = 0;
+	f = 0;
 	div = _pow(2, sizeof(unsigned long int) * 8 - 1);
 	while (div != 0)
 	{
 		chk = n & div;
 		if (chk == div)
 		{
-			flag = 1;
+			f = 1;
 			_putchar('1');
 		}
-		else if (flag == 1 || div == 1)
+		else if (f == 1 || div == 1)
 		{
 			_putchar('0');
 		}
