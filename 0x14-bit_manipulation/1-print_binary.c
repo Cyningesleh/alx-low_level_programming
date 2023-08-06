@@ -9,7 +9,7 @@
  */
 unsigned long int _power_base(unsigned int base, unsigned int power)
 {
-  unsigned long int value = 1;
+unsigned long int value = 1;
 	unsigned int i;
 
 	for (i = 1; i <= power; i++)
