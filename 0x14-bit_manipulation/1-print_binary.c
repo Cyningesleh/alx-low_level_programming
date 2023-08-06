@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow - func that calculates base ^ power
+ * _power_base - func that calculates base ^ power
  * @base: The base of the exponent
  * @power: The power of the exponent
  *
@@ -29,7 +29,7 @@ void print_binary(unsigned long int n)
 	char flag;
 
 	flag = 0;
-	div = _pow_base(2, sizeof(unsigned long int) * 8 - 1);
+	div = _power_base(2, sizeof(unsigned long int) * 8 - 1);
 	while (div != 0)
 	{
 		checker = n & div;
