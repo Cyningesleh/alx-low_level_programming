@@ -1,5 +1,5 @@
-#define MAIN_H
-#ifndef MAIN_H
+#define MAIN_H_
+#ifndef MAIN_H_
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -13,4 +13,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 int _putchar(char c);
 
-#endif /*MAIN_H*/
+#endif /*MAIN_H_*/
