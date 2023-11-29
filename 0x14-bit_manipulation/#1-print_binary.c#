@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * _pow - a function that calculates (base ^ power)
+ * @base: base of the exponent
+ * @power: power of the exponent
+ * Return: value of (base ^ power)
+ */
+
+unsigned long int _pow(unsigned int base, unsigned inrt power)
+{
+  unsigned long int sum;
+  unsigned int i;
+
+  sum = 1;
+  for (i = 1; i <= power; i++)
+    sum *= base;
+  return(sum);
